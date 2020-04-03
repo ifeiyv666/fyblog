@@ -4,8 +4,8 @@
 
 # Site
 title: 飞羽的博客
-subtitle: ''
-description: ''
+subtitle: '飞羽个人博客'
+description: '程序猴一枚，目前主要从事于基于iOS,Flutter,Android的App移动端开发'
 keywords: iOS,Flutter,Android
 author: 飞羽
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ifeiyv.github.io
+url: https://ifeiyv666.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

@@ -1,6 +1,6 @@
 ############################### Basic Information ###############################
 info:
-  name: 飞羽的博客
+  name: <red>飞</red><yellow>羽</yellow><green>博</green><blue>客</blue>
   version: ''
   docs: #https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
@@ -280,7 +280,7 @@ widget:
   blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+    avatar: /img/head.jpg #https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
     title:
     subtitle:
     jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
@@ -336,7 +336,7 @@ widget:
     blockquote: true
     permalink: '本文永久链接是：'
     content:
-      - '著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。'
+      - '著作权归作者所有,转载请注明出处。'
       - permalink
   # ---------------------------------------
   # qrcode widget
@@ -346,8 +346,8 @@ widget:
     height: 64px  # Automatic height if not set
     fancybox: true
     images:
-      - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
-      - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
+      - /img/wx2.jpg #https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
+      - /img/wx1.jpg #https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
   # You can add your own widget here or 'blog/source/_data/widget.yml'
   # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
 
@@ -357,14 +357,15 @@ footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, info, copyright]
   social:
-    - icon: fas fa-rss
-      url: atom.xml
+    # - icon: fas fa-rss
+    #   url: atom.xml
     - icon: fas fa-envelope
       url: mailto:719507339@qq.com
     - icon: fab fa-github
-      url: https://github.com/i-feiyv
-    - icon: fas fa-headphones-alt
-      url: https://music.163.com/#/user/home?id=63035382
+      url: https://github.com/zz1521
+    
+    # - icon: fas fa-headphones-alt
+    #   url: https://music.163.com/#/user/home?id=63035382
   copyright: '[Copyright © 2017-2020 ifeiyv](/)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
