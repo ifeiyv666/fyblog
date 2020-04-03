@@ -15,7 +15,7 @@ tags:
 
   > 网上搜索了一下，基本上都是很早的代码。原理虽然一样，但是代码已经进行多次改版了，特别是现在的Swift
 
-```
+```swift
 //
 //  FyMKUtils.swift
 //  SimulationMouseKeyboard

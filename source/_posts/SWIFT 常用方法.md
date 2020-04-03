@@ -1,4 +1,3 @@
-
 ---
 title: SWIFT 常用方法
 categories:
@@ -11,13 +10,7 @@ date: 2019-06-12 10:22:51
 
 
 
-
-
-
-
-
-
-```
+```swift
 //
 //  LayoutProperties.swift
 //  IfeiyvSwift

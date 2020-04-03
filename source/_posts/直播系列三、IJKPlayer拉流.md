@@ -14,11 +14,11 @@ date: 2019-11-08 11:32:57
 [https://www.jianshu.com/p/65fb80dff4d6](https://www.jianshu.com/p/65fb80dff4d6)
 
 合并真机和模拟器的framework
-```
+```bash
 lipo -create 真机framework路径 模拟器framework路径 -output 合并的文件路径
 ```
 
-```
+```swift
 import UIKit
 
 class playerViewController: UIViewController {

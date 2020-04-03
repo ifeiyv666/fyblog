@@ -6,7 +6,7 @@
 title: 飞羽的博客
 subtitle: '飞羽个人博客'
 description: '程序猴一枚，目前主要从事于基于iOS,Flutter,Android的App移动端开发'
-keywords: iOS,Flutter,Android
+keywords: iOS,Flutter,Android,Mac录制脚本,鼠标点击,Mac鼠标点击
 author: 飞羽
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:

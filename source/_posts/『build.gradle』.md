@@ -14,7 +14,7 @@ date: 2019-06-16 12:11:32
 
 #### 根目录下的build.gradle
 
-```
+```java
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -56,7 +56,7 @@ task clean(type: Delete) {
 
 #### app目录下的build.gradle
 
-```
+```java
 
 //声明是Android应用程序还是库模块
 //com.android.appliccation 标识应用程序，可以直接运行

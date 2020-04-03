@@ -17,12 +17,14 @@ LFLiveKit库里已经集成GPUImage框架用于美颜功能，GPUImage基于Open
 
 LFLiveKit库通过pod导入项目
     
-    pod 'LFLiveKit'
+```swift
+pod 'LFLiveKit'
+```
 
 
 配置上传地址
 
-```
+```swift
     let stream = LFLiveStreamInfo()
     stream.url = "rtmp://192.168.***.***:1935/rtmplive/room"
     session.startLive(stream)
@@ -30,7 +32,7 @@ LFLiveKit库通过pod导入项目
 
 demo 
 
-``` bash
+``` swift
 //
 //  ViewController.swift
 //  IfeiyvLiveVideo

@@ -63,23 +63,23 @@ style:
     #   weight: normal
     #   style: normal
   color:
-#    site: '#000000'
-#    site_inner: '#FFCE48'
-#    theme: '#000000' #'#E84D3B'
+    site: '#eeeeee'
+    site_inner: '#000'
+    theme: '#000000' #'#E84D3B'
 
 
-     site: '#21232F' # Website background color
-     site_inner: '#FFCE48' # Text color inside the website background
-     card: '#444' # Card background color
-     text: '#fff' # The color of the text on the card.
-     theme: '#ff9800' # Main color
-     link: '#1BCDFC' # Link color
-     hover: '#ff5722' # Link highlight color
-     inner: '#333' # Text color inside the button
-     block: '#555' # Block color
-     inlinecode: yellow # Inline code color
-     codeblock: '#555' # Codeblock color
-     p: '#ccc' # Paragraph color
+#     site: '#21232F' # Website background color
+#     site_inner: '#FFCE48' # Text color inside the website background
+#     card: '#444' # Card background color
+#     text: '#fff' # The color of the text on the card.
+#     theme: '#ff9800' # Main color
+#     link: '#1BCDFC' # Link color
+#     hover: '#ff5722' # Link highlight color
+#     inner: '#333' # Text color inside the button
+#     block: '#555' # Block color
+#     inlinecode: yellow # Inline code color
+#     codeblock: '#555' # Codeblock color
+#     p: '#ccc' # Paragraph color
 
 
 

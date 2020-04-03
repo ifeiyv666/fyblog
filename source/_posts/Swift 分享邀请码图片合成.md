@@ -1,4 +1,3 @@
-
 ---
 title: Swift 分享邀请码图片合成
 categories:
@@ -12,7 +11,7 @@ date: 2019-12-15 18:43:21
 
 
 
-```
+```swift
     class func creteImage(bgImage: UIImage, iconImage: UIImage,iconFrame:CGRect,qrCodeImage:UIImage,codeFrame:CGRect,inviteCodeImg:UIImage,frame:CGRect) -> UIImage
     {
         // 1.开启图片上下文
@@ -36,7 +35,7 @@ date: 2019-12-15 18:43:21
 ```
 
 
-```
+```swift
     //MARK: -传进去字符串,生成二维码图片
    class func setupQRCodeImage(_ text: String) -> UIImage {
         //创建滤镜
@@ -76,7 +75,7 @@ date: 2019-12-15 18:43:21
 
 ```
 
-```
+```swift
     class func getImageFromView(view:UIView) ->UIImage{
 //        UIGraphicsBeginImageContext(view.bounds.size)
         UIGraphicsBeginImageContextWithOptions(view.bounds.size,false,UIScreen.main.scale)

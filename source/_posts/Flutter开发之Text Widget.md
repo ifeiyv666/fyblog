@@ -16,7 +16,7 @@ date: 2019-08-21 21:43:55
 
 >“文本”小组件显示单个样式的文本字符串。字符串可能会跨越多行，也可能全部显示在同一行上，具体取决于布局约束。
 
-```
+```dart
 Text(
    //显示的文本
   'Hello, $_name! How are you?',
@@ -32,7 +32,7 @@ Text(
 
 >下面使用Text.rich构造函数，Text小部件可以显示具有不同样式TextSpans的段落。下面的示例显示每个单词具有不同样式的“Hello beautiful world”。
 
-```
+```dart
 const Text.rich(
   TextSpan(
     text: 'Hello', // default text style
@@ -59,7 +59,7 @@ const Text.rich(
 #### 构造方法
 
 
-```
+```dart
     
    Text(String data, { 
               Key key, 
@@ -76,7 +76,7 @@ const Text.rich(
    })
 ```
 
-```
+```dart
     Text.rich(TextSpan textSpan, { 
                        Key key, 
                        TextStyle style,
@@ -96,16 +96,18 @@ const Text.rich(
 #### 属性
 
 - data → String   
-   - *要显示的文字*
-
+   
+- *要显示的文字*
+   
 - locale → Locale
    - *用于在可以以不同方式呈现相同Unicode字符时选择字体，具体取决于区域设置*
    - *很少需要设置此属性。默认情况下，其值继承自包含Localizations.localeOf（context）的应用程序*
    - *有关更多信息，请参见[RenderParagraph.locale](https://api.flutter.dev/flutter/widgets/Text/locale.html)。*
 
 - maxLines→int
-   - *文本要跨越的可选最大行数，必要时包装。如果文本超过给定的行数，则会根据溢出将其截断*
-
+   
+- *文本要跨越的可选最大行数，必要时包装。如果文本超过给定的行数，则会根据溢出将其截断*
+   
 - overflow→TextOverflow
    - *如何处理视觉溢出*
    - TextOverflow枚举
@@ -140,7 +142,7 @@ const List <TextOverflow>
    - *强烈建议至少指定一个字体. 有关详细信息, 请参见 [StrutStyle](https://api.flutter.dev/flutter/painting/StrutStyle-class.html)。*
    - eg:
    
-    ```
+    ```dart
        const Text(
             'Hello, world!\nSecond line!',
             style: TextStyle(
@@ -182,15 +184,19 @@ const List <TextOverflow>
    - *作为textScaleFactor赋予构造函数的值。 如果为null，将使用从环境MediaQuery获取的MediaQueryData.textScaleFactor，如果范围内没有MediaQuery，则使用1.0。*
 
 - textSpan→TextSpan
-   - *要显示为TextSpan的文本*
-
+   
+- *要显示为TextSpan的文本*
+   
 - hashCode→int
-   - *此对象的哈希码*
-
+   
+- *此对象的哈希码*
+   
 - key→Key
-   - *控制一个小部件如何替换树中的另一个小部件*
-
+   
+- *控制一个小部件如何替换树中的另一个小部件*
+   
 - runtimeType→Type
+   
    - *表示对象的运行时类型*
 
 

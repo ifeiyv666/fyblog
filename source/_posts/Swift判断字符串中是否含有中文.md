@@ -9,7 +9,7 @@ date: 2020-01-15 10:48:26
 ---
 
 
-```
+```swift
 var str = "l我o是v中e文123456789"
 
 func judgeStringIncludeChineseWord(string: String) -> Bool {

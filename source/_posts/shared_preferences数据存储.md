@@ -29,7 +29,7 @@ date: 2019-10-19 18:52:45
 
 #### 使用方法
 
-```
+```dart
       SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 
       sharedPreferences.setString("name", "hehe");
@@ -70,7 +70,7 @@ date: 2019-10-19 18:52:45
 ```
 #### 打印数据：
 
-```
+```dart
 
 flutter: =========get****("key")取出存储的数据==============
 flutter: 姓名:hehe

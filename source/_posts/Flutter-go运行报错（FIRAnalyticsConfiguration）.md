@@ -13,7 +13,7 @@ date: 2019-07-19 21:48:12
 ### flutter go 项目下载后，运行报如下错误：
 
 
-```$ flutter run
+```dart
 Launching lib/main.dart on iPhone Xʀ in debug mode...
 Running Xcode build...                                                  
                                                    

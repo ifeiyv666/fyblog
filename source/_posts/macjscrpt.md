@@ -1,26 +1,16 @@
-\---
-
+---
 title: MAC录制鼠标事件脚本
-
 categories:
-
- \- Mac
-
+    - Mac
+date: 2020-04-03 14:17:33
 tags:
-
- \- 脚本录制
-
- \- 鼠标事件
-
-abbrlink: 10112
-
-date: 2020-03-31 09:10:21
-
-\---
+    - 脚本录制
+    - 鼠标事件
+---
 
 #### 录制鼠标事件脚本
 
-![test007](images/test007.gif)
+![test007](test007.gif)
 
 用到自己封装好的工具  [MAC代码模拟鼠标和键盘事件](https://ifeiyv.cn/tags/代码模拟键盘/)
 
@@ -73,10 +63,3 @@ func  playEvent(){
    }
 }
 ```
-
-
-
-
-
-
-

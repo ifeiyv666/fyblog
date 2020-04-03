@@ -12,7 +12,7 @@ tags:
 
 > 传入响应检测的起点`Responsder`，一般用于UIView中查找响应者链中的控制器
 
-```
+```swift
 func nextResponder(currentView:UIView)->UIViewController{
 var vc:UIResponder = currentView
 while vc.isKind(of: UIViewController.self) != true {

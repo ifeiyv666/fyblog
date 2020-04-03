@@ -18,7 +18,7 @@ date: 2020-04-3 11:32:06
    - resizeToAvoidBottomInset：为true键盘弹起输入框会自动上移，为false不移动，如果输入框靠下，有可能被遮挡住。默认为true
 
 
-```
+```dart
   /// This flag is deprecated, please use [resizeToAvoidBottomInset]
   /// instead.
   ///

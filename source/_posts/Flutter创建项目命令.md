@@ -20,25 +20,25 @@ date: 2020-04-02 12:08:45
 
 - 创建一个 iOS 基于 Swift  ，Android基于Java的flutter项目
 
-  ```
+  ```dart
   flutter create  --ios-language swift --android-language kotlin mydemo
   ```
 
 - 创建一个 iOS 基于 Swift  ，Android基于kotlin的flutter项目
 
-  ```
+  ```dart
   flutter create  --ios-language swift --android-language kotlin mydemo
   ```
 
 - 创建一个 iOS 基于 OC  ，Android基于kotlin的flutter项目
 
-  ```
+  ```dart
   flutter create  --ios-language objc --android-language kotlin mydemo
   ```
 
 - 创建一个 iOS 基于 OC  ，Android基于java的flutter项目
 
-  ```
+  ```dart
   flutter create  --ios-language objc --android-language java mydemo
   ```
 

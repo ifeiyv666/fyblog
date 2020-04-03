@@ -65,7 +65,7 @@ Center(
 
 ![屏幕快照 2019-05-25 下午6.39.27.png](https://upload-images.jianshu.io/upload_images/11100630-8872dd960763226b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-```
+```dart
 Container(
   constraints: BoxConstraints.expand(
     height: Theme.of(context).textTheme.display1.fontSize * 1.1 + 200.0,
@@ -92,7 +92,7 @@ Container(
 
 #### 构造方法（Constructors）
 >创建一个小部件, 结合了普通的绘画、定位和大小调整小部件。
-```
+```dart
 Container({Key key, 
     AlignmentGeometry alignment,
     EdgeInsetsGeometry padding, 
@@ -110,19 +110,22 @@ Container({Key key,
 #### 属性（Properties）
 
 - alignment → AlignmentGeometry
-   - *对齐内部的子级*
-
+   
+- *对齐内部的子级*
+   
 - child → Widget
-   - *容器内部的子级*
-
+   
+- *容器内部的子级*
+   
 - constraints → BoxConstraints 
-   - *要应用于子级的附加约束*
-
+   
+- *要应用于子级的附加约束*
+   
 - decoration → Decoration
    - *子级背后的装饰*
    - *可以设置边框、背景色、背景图片、圆角等属性*
    - *需要注意的是 `deoration`和 `color` 背景颜色不能共存，二者同时只能有一个*
-   ```
+   ```dart
    decoration: new BoxDecoration(
                   border: new Border.all(width: 2.0, color: Colors.red),
                   color: Colors.grey,
@@ -145,21 +148,27 @@ Container({Key key,
    - ![nodecoration]()
 
 - margin → EdgeInsetsGeometry
-   - *我的理解就是外边距*
-
+   
+- *我的理解就是外边距*
+   
 - padding → EdgeInsetsGeometry
-   - *我的理解就是内边距*
-
+   
+- *我的理解就是内边距*
+   
 - transform → Matrix4
+   
    - *在绘制容器之前要应用的转换矩阵*
    
 - hashCode → int
-   - *此对象的哈希代码*
-
+   
+- *此对象的哈希代码*
+   
 - key → Key
+   
    - *控制一个小部件如何替换树中的另一个小部件*
    
 - runtimeType → Type
+  
   - *对象的运行时类型*
 
 #### 方法（Methods）

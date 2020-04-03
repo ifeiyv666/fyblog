@@ -23,7 +23,7 @@ date: 2020-03-16 14:43:52
 ### Podfile
 
 
-```
+```swift
     //可以根据不同版本，调整库的版本（不同版本可能需要库的版本不同）
     pod 'Moya/RxSwift', '~> 12.0.1'
     pod 'HandyJSON', '~> 5.0.1'
@@ -35,7 +35,7 @@ date: 2020-03-16 14:43:52
 主要放一些请求Url
 
 
-```
+```swift
 
 struct FyUrls {
     /// 服务器环境 true: 正服 false: 测服
@@ -77,7 +77,7 @@ struct FyUrls {
 主要放基于Moya的网络请求配置
 
 
-```
+```swift
 //
 //  FyNetworkApi.swift
 //  FyNetWork
@@ -159,7 +159,7 @@ extension FyApi:TargetType{
 
 主要放Api接口请求方法具体实现
 
-```
+```swift
 //
 //  FyRequest.swift
 //  FyNetWork
@@ -229,7 +229,7 @@ class FyRequest: NSObject {
 
 主要是请求响应解析方法
 
-```
+```swift
 //
 //  FyResponse.swift
 //  FyNetWork
@@ -304,7 +304,7 @@ extension PrimitiveSequence where TraitType == SingleTrait, ElementType == Respo
 
 网络请求库的运用例子
 
-```
+```swift
 //
 //  FyViewModel.swift
 //  FyNetWork
@@ -361,7 +361,7 @@ class FyViewModel: NSObject {
 
 主要用来配置请求参数
 
-```
+```swift
 //
 //  FyParams.swift
 //  Runner

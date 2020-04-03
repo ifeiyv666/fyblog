@@ -13,7 +13,7 @@ date: 2020-03-13 12:44:21
 #### 封装颜色管理类
 
 
-```
+```swift
 
 //
 //  FyColor.swift
@@ -105,7 +105,7 @@ class FyColors{
 
 ##### 使用方式：(深色模式切换时，系统会重新渲染颜色，自动在设置好的两种颜色中进行切换)
 
- ```
+ ```swift
     label.textColor = FyColors.labelTextColor
    
     label.backgroundColor = FyColors.labelBgColor

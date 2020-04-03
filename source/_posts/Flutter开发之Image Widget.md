@@ -27,7 +27,7 @@ date: 2019-08-16 11:16:41
 #### 构造方法（Constructors）
 
 >Image 创建一个显示图像的小部件
-```
+```dart
 Image({
     Key key, 
     @required ImageProvider image, 
@@ -46,7 +46,7 @@ Image({
 ```
 
 >创建一个小部件,显示从资源包里获得的 ImageStream,图像的键是由名称参数给出的
-```
+```dart
 Image.asset(String name, { 
     Key key, 
     AssetBundle bundle, 
@@ -68,7 +68,7 @@ Image.asset(String name, {
 })
 ```
 >创建一个小部件, 显示从文件中获得的 ImageStream
-```
+```dart
 Image.file(File file, { 
     Key key, 
     double scale: 1.0, 
@@ -88,7 +88,7 @@ Image.file(File file, {
 ```
 
 >创建一个小部件,显示从Uint8List中获得的ImageStream
-```
+```dart
 Image.memory(Uint8List bytes, { 
     Key key, 
     double scale: 1.0, 
@@ -108,7 +108,7 @@ Image.memory(Uint8List bytes, {
 ```
 
 >创建一个小部件, 显示从网络获得的ImageStream
-```
+```dart
 Image.network(String src, { 
     Key key, 
     double scale: 1.0, 

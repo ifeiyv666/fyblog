@@ -11,7 +11,7 @@ date: 2019-11-08 12:04:12
 
 1. ./build-ffmpeg.sh
 
-```
+```bash
 xcrun -sdk iphoneos clang is unable to create an executable file.
 C compiler test failed.
 
@@ -24,20 +24,22 @@ solve the problem.
 ```
 解决方法：
 
-    sudo xcode-select --switch /Applications/Xcode.app
-    
+```bash
+sudo xcode-select --switch /Applications/Xcode.app
+```
+
 2. armv7
 
 [https://www.jianshu.com/p/2669370bee23](https://www.jianshu.com/p/2669370bee23)
 
-```
+```bash
  ./libavutil/arm/asm.S:50:9: error: unknown directive
         .arch armv7-a
         ^
 ```
 删除`armv7compile-ffmpeg.sh`文件中 
 
-```
+```bash
 FF_ALL_ARCHS_IOS8_SDK="armv7 arm64 i386 x86_64"
 
 改为 FF_ALL_ARCHS_IOS8_SDK="arm64 i386 x86_64"
