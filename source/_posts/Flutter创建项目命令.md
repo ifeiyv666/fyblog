@@ -41,6 +41,13 @@ date: 2020-04-02 12:08:45
   ```dart
   flutter create  --ios-language objc --android-language java mydemo
   ```
+  
+  - VSCode 配置创建
+  >配置路径 code>preferences>Settings --- User > Extensions > Dart & Flutter
+  
+![flutter](1.png)
+  
+![flutter](2.png)
 
   
 
