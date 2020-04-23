@@ -1,5 +1,6 @@
 ---
 title: MAC录制鼠标事件脚本
+top: true
 categories:
     - Mac
 date: 2020-04-03 14:17:33
