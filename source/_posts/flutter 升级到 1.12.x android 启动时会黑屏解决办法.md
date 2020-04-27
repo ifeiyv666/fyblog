@@ -1,9 +1,9 @@
 ---
 title: flutter 升级到 1.12.x android 启动时会黑屏解决办法
-categories: [Flutter,Android]
+categories: Flutter
 tags:
   - Flutter黑屏
-  - android黑屏
+  - Android黑屏
   - flutter 1.12.x
 abbrlink: 10155
 date: 2020-04-23 13:33:20
