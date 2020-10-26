@@ -73,7 +73,7 @@ Volume(s) mounted successfully
 
 
 
-
+#### 以上命令方法不行的话，那就电脑连接移动硬盘老老实实等大概半个小时就好了
 
 
 

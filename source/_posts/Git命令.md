@@ -227,7 +227,7 @@ git clone -b master https://gitee.com/用户名/GitStudy.git
 
    
 
-#### 五、tag标签
+#### 六、tag标签
 
 1. 创建tag标签
 
